@@ -78,6 +78,18 @@ The visual representing our data and labels, which include more than 13 differen
 
 </div>
 
+------------------
+
+## 🧪 Testing Results 
+To demonstrate how LeafBank's rich data repository contributes to classical architectures, we trained YOLOv11 variants. The test results are shown in the video below.
+
+<div align="center">
+  <video width="600" controls>
+    <source src="LeafBank - Test.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ---------
 
 ## 📥 How to Download Dataset and Trained Models
