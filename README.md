@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="leafbank_logo.png" alt="Train Images and Labels" width="500" height="500"/>
+  <img src="leafbank.png" alt="Train Images and Labels" width="500" height="500"/>
 </div>
 
 
