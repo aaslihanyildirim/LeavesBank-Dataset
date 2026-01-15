@@ -24,11 +24,13 @@
 
 ## 👋 Welcome
 
-The LeafBank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.  
-Detailed information about the dataset and download instructions are provided in the following sections 👇.
+Hi! Welcome to "The LeafBank Dataset" official repository. Leafbank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.During dataset development, care was taken to include not only plant diversity but also various plant tasks such as growth monitoring, disease classification, and phenotyping, as well as image quality. 
+ 👇.
 
+---------
 
  ## 🗃️ Datasets Used For This Study
+ The following table contains information about a dataset including JSON annotations for images of leaves belonging to more than 13 plant species.
 
 | Dataset | Plant Type | Leaf Form | Image Count | Task | Region | Camera | Background | Excluding Criteria | 
 |--------|------------|-----------|-------------|------|--------|--------|------------|--------------------|
@@ -45,3 +47,42 @@ Detailed information about the dataset and download instructions are provided in
 | [Pumpkin Leaf Dataset](https://data.mendeley.com/datasets/wtxcw8wpxb/1) | Pumpkin | Compound | 2,000 | Disease C. | Asia | Smartphone | N | All |
 | [Sunflower Dataset](https://data.mendeley.com/datasets/b83hmrzth8/1) | Sunflower | Basic | 389 | Disease C. | Asia | Digital Cam. | N | Sample |
 | [CVPPP 2017](https://www.plant-phenotyping.org/datasets-home) | Tobacco, Arabidopsis | Compound | 804 | Phenotyping | Asia | Various | C | All |
+
+------------------
+
+## 🧠 Extracted Instances 
+Data was labeled using a semi-automated active learning approach developed with YOLOv11 and Segment Anything 2. As a result, 39,232 images were labeled and 220,600 instances were extracted. Detailed information and visuals regarding the extracted instances are as follows.
+
+| Dataset | Image Count | Extracted Leaf Instances | Extracted Secondary Leaf Instances | Total Instances | Avg. Instances / Image |
+|--------|-------------|--------------------------|-----------------------------------|-----------------|------------------------|
+| Plant Pathology (2021) | 18,632 | 68,182 | 13,397 | 81,579 | 5 | 
+| PlantNet | 2,859 | 25,122 | 796 | 25,918 | 9 |
+| Betel Leaf Dataset | 750 | 1,632 | 187 | 1,819 | 3 |
+| icassava2019 | 996 | 27,403 | 2,124 | 29,514 | 30 |
+| Cinnamomum Tamala | 5,696 | 5,700 | 0 | 5,700 | 1 |
+| Ground Nut Leaf Dataset | 1,263 | 11,547 | 1,169 | 12,516 | 10 |
+| Lemon Leaf Dataset | 2,094 | 12,288 | 1,140 | 13,428 | 7 |
+| Okra DiseaseNet | 1,500 | 3,158 | 179 | 3,337 | 3 |
+| Peach Dataset | 285 | 3,470 | 79 | 3,549 | 13 |
+| Diamos Dataset | 2,964 | 21,565 | 3,717 | 25,282 | 9 |
+| Pumpkin Leaf Dataset | 2,000 | 7,956 | 0 | 7,956 | 4 |
+| Sunflower Dataset | 389 | 2,325 | 73 | 2,398 | 6 |
+| CVPPP 2017 | 804 | 8,191 | 0 | 8,191 | 10 |
+| **Total** | **39,232** | **198,539** | **22,061** | **220,600** |  |  
+
+
+The visual representing our data and labels, which include more than 13 different plant species and different plant tasks, is as follows:
+<div align="center">
+
+<img src="images from dataset.jpg" alt="Iamges and extracted instances" width="600" height="600"/>
+
+</div>
+
+---------
+
+## 📥 How to Download Dataset and Trained Models
+The dataset was published on Kaagle because it contains high-resolution images and a massive number of polygon points. You can access the main link by clicking [here](https://www.kaggle.com/datasets/aslhanyldrm/leafbank-dataset-for-leaf-instance-segmentation). Also you can access the published models from [here]().
+
+-----------
+## 📖 Citation 
+If you are conducting a study using this dataset or published models, please remember to tag this repository and the research paper to be published under [license](https://github.com/aaslihanyildirim/LeafBank-Dataset?tab=CC-BY-4.0-1-ov-file).
