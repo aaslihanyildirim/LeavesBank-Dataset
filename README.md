@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="leafbank.png" alt="Train Images and Labels" width="500" height="500"/>
+  <img src="figures/LeavesBank.png" alt="Train Images and Labels" width="1000" height="500"/>
 </div>
 
 
 <div align="center">
 
-## LeafBank: A Leaf Segmentation Dataset with 220K Instances Across Different Plant Types and Tasks
+## Leaves Bank Dataset: An Instance Leaf Segmentation Dataset with 220K Instances Across Different Plant Types and Task
 
 </div>
 
@@ -22,13 +22,13 @@
 
 ## 👋 Welcome
 
-Hi! Welcome to "The LeafBank Dataset" official repository. Leafbank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.During dataset development, care was taken to include not only plant diversity but also various plant tasks such as growth monitoring, disease classification, and phenotyping, as well as image quality. 
- 👇.
+Hi! Welcome to "The LeafBank Dataset" official repository. Leafbank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.During dataset development, care was taken to include not only plant diversity but also various plant tasks such as growth monitoring, disease classification, and phenotyping, as well as image quality. Detailed explanations are below 👇.
 
 ---------
 
  ## 🗃️ Datasets Used For This Study
- The following table contains information about a dataset including JSON annotations for images of leaves belonging to more than 13 plant species.
+ The following table contains information about a dataset including JSON annotations for images of leaves belonging to more than 13 plant species. In the Task column, Disease C. = Disease Classification.
+In the Camera column, Digital Cam. = Digital Camera. In the Background column, N = Natural, M = Mixed, C = Controlled.
 
 | Dataset | Plant Type | Leaf Form | Image Count | Task | Region | Camera | Background | Excluding Criteria | 
 |--------|------------|-----------|-------------|------|--------|--------|------------|--------------------|
@@ -55,8 +55,8 @@ Data was labeled using a semi-automated active learning approach developed with 
 |--------|-------------|--------------------------|-----------------------------------|-----------------|------------------------|
 | Plant Pathology (2021) | 18,632 | 68,182 | 13,397 | 81,579 | 5 | 
 | PlantNet | 2,859 | 25,122 | 796 | 25,918 | 9 |
-| Betel Leaf Dataset | 750 | 1,632 | 187 | 1,819 | 3 |
-| icassava2019 | 996 | 27,403 | 2,124 | 29,514 | 30 |
+| Betel Leaf Dataset | 750 | 1,632 | 264 | 1,896 | 3 |
+| icassava2019 | 996 | 27,403 | 2,124 | 29,527 | 30 |
 | Cinnamomum Tamala | 5,696 | 5,700 | 0 | 5,700 | 1 |
 | Ground Nut Leaf Dataset | 1,263 | 11,547 | 1,169 | 12,516 | 10 |
 | Lemon Leaf Dataset | 2,094 | 12,288 | 1,140 | 13,428 | 7 |
@@ -66,7 +66,7 @@ Data was labeled using a semi-automated active learning approach developed with 
 | Pumpkin Leaf Dataset | 2,000 | 7,956 | 0 | 7,956 | 4 |
 | Sunflower Dataset | 389 | 2,325 | 73 | 2,398 | 6 |
 | CVPPP 2017 | 804 | 8,191 | 0 | 8,191 | 10 |
-| **Total** | **39,232** | **198,539** | **22,061** | **220,600** |  |  
+| **Total** | **39,232** | **198,489** | **22,938** | **221,427** |  |  
 
 
 The visual representing our data and labels, which include more than 13 different plant species and different plant tasks, is as follows:
