@@ -72,20 +72,25 @@ Data was labeled using a semi-automated active learning approach developed with 
 The visual representing our data and labels, which include more than 13 different plant species and different plant tasks, is as follows:
 <div align="center">
 
-<img src="images from dataset.jpg" alt="Iamges and extracted instances" width="600" height="600"/>
+<img src="figures/Examples.jpg" alt="Iamges and extracted instances" width="600" height="600"/>
 
 </div>
 
 ------------------
 
 ## 🧪 Testing Results 
-To demonstrate how LeafBank's rich data repository contributes to classical architectures, we trained YOLOv11 variants. The test results are shown in the video below.
+To demonstrate how LeafBank's rich data repository contributes to classical architectures, we trained YOLOv11 variants. The test results are shown in the table.
 
 <div align="center">
-  <video width="600" controls>
-    <source src="LeafBank - Test.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+
+| YOLOv11 Variant | Prec | Rec | mAP50 | mAP50-95 |
+|-----------------|------|------|-------|---------|
+| Extra Large     | 0.876 | 0.861 | 0.937 | 0.848 |
+| Large           | 0.874 | 0.863 | 0.937 | 0.846 |
+| Medium          | 0.878 | 0.859 | 0.936 | 0.845 |
+| Small           | 0.873 | 0.853 | 0.933 | 0.838 |
+| Nano            | 0.867 | 0.844 | 0.926 | 0.817 |
+
 </div>
 
 ---------
