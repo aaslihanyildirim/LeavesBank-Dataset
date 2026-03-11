@@ -22,7 +22,7 @@
 
 ## 👋 Welcome
 
-Hi! Welcome to "The LeafBank Dataset" official repository. Leafbank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.During dataset development, care was taken to include not only plant diversity but also various plant tasks such as growth monitoring, disease classification, and phenotyping, as well as image quality. Detailed explanations are below 👇.
+Hi! Welcome to "The Leaves Bank Dataset" official repository. Leafbank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.During dataset development, care was taken to include not only plant diversity but also various plant tasks such as growth monitoring, disease classification, and phenotyping, as well as image quality. Detailed explanations are below 👇.
 
 ---------
 
@@ -92,7 +92,10 @@ To demonstrate how LeafBank's rich data repository contributes to classical arch
 | Nano            | 0.867 | 0.844 | 0.926 | 0.817 |
 
 </div>
+<br>
 
+https://github.com/user-attachments/assets/06e4ea6c-3b15-42a9-8b5e-b377b31e2906
+  
 ---------
 
 ## 📥 How to Download Dataset and Trained Models
