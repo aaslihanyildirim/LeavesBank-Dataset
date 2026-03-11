@@ -5,7 +5,7 @@
 
 <div align="center">
 
-## Leaves Bank Dataset: An Instance Leaf Segmentation Dataset with 220K Instances Across Different Plant Types and Task
+## LeavesBank Dataset: An Instance Leaf Segmentation Dataset with 220K Instances Across Different Plant Types and Task
 
 </div>
 
@@ -15,7 +15,8 @@
   <a href="https://pytorch.org/get-started/previous-versions/"><img src="https://img.shields.io/badge/Pytorch-2.0.1-red.svg"></a>
   <a href="https://developer.nvidia.com/cuda-11-8-0-download-archive/"><img src="https://img.shields.io/badge/Cuda-11.8-red.svg"></a>
   <a href="https://github.com/ultralytics/ultralytics"><img src="https://img.shields.io/badge/Ultralytics-green.svg"></a>
-   <a href="https://github.com/facebookresearch/sam2"><img src="https://img.shields.io/badge/SAM2-blue.svg"></a>
+  <a href="https://github.com/facebookresearch/sam2"><img src="https://img.shields.io/badge/SAM2-purple.svg"></a>
+  <a href="https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset"><img src="https://img.shields.io/badge/Kaagle-blue.svg"></a>
 </p>
 
 
@@ -94,13 +95,39 @@ To demonstrate how LeafBank's rich data repository contributes to classical arch
 </div>
 <br>
 
+
 https://github.com/user-attachments/assets/06e4ea6c-3b15-42a9-8b5e-b377b31e2906
+
+
+We also used Leafbank to compare the zero-shot performance of various YOLO features from the literature with the state-of-the-art SAM3 model and extensive studies.
+
+<div align="center">
+  
+### Model Performance Comparison (mAP50 / mAP50-95)
+
+| Model | Komatsuna | SoyCotton | Growliflower | Potato Leaf |
+|------|-----------|-----------|---------------|-------------|
+| SAM3 | 0.75 / 0.61 | 0.81 / 0.68 | 0.62 / 0.41 | 0.84 / 0.66 |
+| LeafGEN | 0.63 / - | - / - | - / - | - / - |
+| G-SAM | 0.48 / - | - / - | - / - | - / - |
+| Leaf Only SAM | 0.55 / - | - / - | - / - | 0.74 / 0.58 |
+| Xing et al. | - / - | - / - | 0.61 / - | - / - |
+| YOLOv11n | 0.75 / 0.59 | 0.76 / 0.52 | 0.64 / 0.42 | 0.63 / 0.42 |
+| YOLOv11s | 0.83 / 0.64 | 0.81 / 0.58 | 0.66 / 0.46 | 0.71 / 0.47 |
+| YOLOv11m | 0.85 / 0.65 | 0.81 / 0.59 | 0.65 / 0.46 | 0.72 / 0.49 |
+| YOLOv11l | 0.83 / 0.64 | 0.82 / 0.61 | 0.66 / 0.47 | 0.74 / 0.52 |
+| YOLOv11x | 0.82 / 0.64 | 0.82 / 0.62 | 0.67 / 0.47 | 0.75 / 0.52 |
+
+</div>
+<br>
+
+
   
 ---------
 
 ## 📥 How to Download Dataset and Trained Models
-The dataset was published on Kaagle because it contains high-resolution images and a massive number of polygon points. You can access the main link by clicking [here](https://www.kaggle.com/datasets/aslhanyldrm/leafbank-dataset-for-leaf-instance-segmentation). Also you can access the published models from [here]().
+The dataset was published on Kaagle because it contains high-resolution images and a massive number of polygon points. You can access the main link by clicking [here](https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset). Also you can access the published models from [here](https://github.com/aaslihanyildirim/LeavesBank-Dataset/releases/tag/models).
 
 -----------
 ## 📖 Citation 
-If you are conducting a study using this dataset or published models, please remember to tag this repository and the research paper to be published under [license](https://github.com/aaslihanyildirim/LeafBank-Dataset?tab=CC-BY-4.0-1-ov-file).
+If you are conducting a study using this dataset or published models, please remember to tag this repository and the research paper will be published under [license](https://github.com/aaslihanyildirim/LeafBank-Dataset?tab=CC-BY-4.0-1-ov-file).
