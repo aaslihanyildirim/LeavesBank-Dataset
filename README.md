@@ -42,5 +42,5 @@ We also used Leafbank to compare the zero-shot performance of various YOLO featu
 The dataset was published on Kaagle because it contains high-resolution images and a massive number of polygon points. You can access the main link by clicking [https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset](https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset). Also you can access the published models from [here](https://github.com/aaslihanyildirim/LeavesBank-Dataset/releases/tag/models).
 
 -----------
-## 📖 Citation 
+## 📖 Citation (to be added)
 If you are conducting a study using this dataset or published models, please remember to tag this repository and the research paper will be published under [license](https://github.com/aaslihanyildirim/LeafBank-Dataset?tab=CC-BY-4.0-1-ov-file).
