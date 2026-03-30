@@ -27,7 +27,7 @@ Hi! Welcome to "The Leaves Bank Dataset" official repository. Leafbank dataset w
 
 ------------------
 
-## 🧪 Testing Results 
+## 🧪 Test Results 
 To demonstrate how LeafBank's rich data repository contributes to classical architectures, we trained YOLOv11 variants. The test results are shown in the video.
 
 
