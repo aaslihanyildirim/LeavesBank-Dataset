@@ -34,7 +34,7 @@ Hi! Welcome to "The Leaves Bank Dataset" official repository. Leafbank dataset w
  There are a total of 198,489 "leaf" instances and 22,938 "secondary leaf" instances including more than 13 different plant types.
 
 - **🛠 Zero-Shot Benchmarking Across Datasets**  
-  The framework has been rigorously evaluated through zero-shot benchmarking across eight widely used public datasets, demonstrating its robustness and adaptability to various segmentation scenarios.
+  The framework has been rigorously evaluated through zero-shot benchmarking across 4 widely used public instance segmentation datasets, demonstrating its robustness and adaptability to various segmentation scenarios.
 
 - **🤝 Community-Supported and Hardware-Compatible**  
   Designed for compatibility with a variety of hardware configurations, the framework is supported by an active open-source community, facilitating scalability, extensibility, and collaborative development.
