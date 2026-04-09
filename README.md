@@ -25,6 +25,22 @@
 
 Hi! Welcome to "The Leaves Bank Dataset" official repository. Leafbank dataset was created by labeling 13 different publicly available datasets using a semi-automated active learning pipeline.During dataset development, care was taken to include not only plant diversity but also various plant tasks such as growth monitoring, disease classification, and phenotyping, as well as image quality. Detailed explanations are below 👇.
 
+### 🔑 Key Features
+
+- **☘️ Pathological Diversity**
+  In addition to healthy leaves across various species, the dataset includes data on several plant diseases and conditions, such as powdery mildew, downy mildew, rust, dry leaves, and scars.
+
+- **☑️ Instance Count**  
+ There are a total of 198,489 "leaf" instances and 22,938 "secondary leaf" instances including more than 13 different plant types.
+
+- **🛠 Zero-Shot Benchmarking Across Datasets**  
+  The framework has been rigorously evaluated through zero-shot benchmarking across eight widely used public datasets, demonstrating its robustness and adaptability to various segmentation scenarios.
+
+- **🤝 Community-Supported and Hardware-Compatible**  
+  Designed for compatibility with a variety of hardware configurations, the framework is supported by an active open-source community, facilitating scalability, extensibility, and collaborative development.
+
+- **🌐 Open Access and Extensibility**  
+  The full framework, including source code and pre-trained weights, is publicly available to encourage reproducibility, transparency, and continued innovation within the research community.
 ------------------
 
 
