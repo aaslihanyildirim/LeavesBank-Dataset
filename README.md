@@ -27,6 +27,23 @@ Hi! Welcome to "The Leaves Bank Dataset" official repository. Leafbank dataset w
 
 ------------------
 
+
+## 🌱 Datasets Used In This Study
+
+This study utilized open-source datasets predominantly consisting of academic outputs. The research was conducted using datasets encompassing various leaf morphologies (e.g., compound, simple) and more than 13 distinct plant species. Specifically, the following datasets were incorporated into the study: [Plant Pathology 2021](https://www.kaggle.com/competitions/plant-pathology-2021-fgvc8), [PlantNet 300K](https://zenodo.org/records/4726653), [Betel Leaf Dataset](https://data.mendeley.com/datasets/g7fpgj57wc/2), [icassava2019](https://sites.google.com/view/fgvc6/competitions/icassava-2019), [Cinnamoum Tamala (Indian Bay Tree Leaf)](https://data.mendeley.com/datasets/s9t7sr52wg/1), [GroundNut Leaf Dataset](https://data.mendeley.com/datasets/x6x5jkk873/2), [Lemon Leaf Dataset](https://data.mendeley.com/datasets/rcyyf5j9zg/1), [OkraDiseaseNet](https://data.mendeley.com/datasets/nh7zk4hv8z/1), [Peach Dataset](https://data.mendeley.com/datasets/3pmj85snvw/1), [Diamos Dataset](https://zenodo.org/records/5557313), [Pumpkin Leaf Dataset](https://data.mendeley.com/datasets/wtxcw8wpxb/1), [Sunflower Dataset](https://data.mendeley.com/datasets/b83hmrzth8/1), and [CVPPP2017 Dataset](https://www.plant-phenotyping.org/datasets-home) .
+
+
+------------------------------
+
+
+## 🗃️ Annotation Process and Hierarchical File Structure
+
+An analysis of the datasets mentioned in Section 2.1 revealed several artifacts suboptimal for a high-quality dataset, such as low image resolution, motion blur or shifts caused by environmental conditions during acquisition, and the presence of weeds rather than the target foliage. Furthermore, some datasets exhibited potential data imbalance due to a high density of leaves per image. To mitigate the labor-intensive nature of labeling these instances, a representative sampling strategy was adopted instead of utilizing the entire collection. Following a rigorous multi-criteria evaluation, the annotation process was initiated. Two distinct classes were defined: the 'leaf' label was assigned to centrally located and clearly distinguishable leaves, while the 'leaf_secondary' label was used for the remaining instances. After the annotation process, a hierarchical file structure was established. Comprehensive details regarding the class definitions and the organizational directory structure are presented in Figure A.
+
+
+------------------------------
+
+
 ## 🧪 Test Results 
 To demonstrate how LeafBank's rich data repository contributes to classical architectures, we trained YOLOv11 variants. The test results are shown in the video.
 
