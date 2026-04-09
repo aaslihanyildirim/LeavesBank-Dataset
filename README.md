@@ -57,13 +57,19 @@ To demonstrate how LeafBank's rich data repository contributes to classical arch
 https://github.com/user-attachments/assets/06e4ea6c-3b15-42a9-8b5e-b377b31e2906
 
 
-We also used Leafbank to compare the zero-shot performance of various YOLO features from the literature with the state-of-the-art SAM3 model and extensive studies.
+We also used Leafbank to compare the zero-shot performance of various YOLO features from the literature with the state-of-the-art SAM3 model and extensive studies. In the figure below, you can see example images and masks for zero-shot comparisons.
+
+<div align="center">
+
+<img src="figures/fig_LeavesBank_Finetuned.png" alt="Inference Screen" height= "500" width="800"/>
+
+</div>
 
 ---------
 
 ## 📥 How to Download Dataset and Trained Models
-The dataset was published on Kaagle because it contains high-resolution images and a massive number of polygon points. You can access the main link by clicking [https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset](https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset). Also you can access the published models from [here](https://github.com/aaslihanyildirim/LeavesBank-Dataset/releases/tag/models).
+The dataset was published on Kaagle because it contains high-resolution images and a massive number of polygon points. You can access the main link by clicking [https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset](https://www.kaggle.com/datasets/aslhanyldrm/leavesbank-dataset). Also you can access the published models from [https://github.com/aaslihanyildirim/LeavesBank-Dataset/releases/tag/models](https://github.com/aaslihanyildirim/LeavesBank-Dataset/releases/tag/models).
 
 -----------
 ## 📖 Citation (to be added)
-If you are conducting a study using this dataset or published models, please remember to tag this repository and the research paper will be published under [license](https://github.com/aaslihanyildirim/LeafBank-Dataset?tab=CC-BY-4.0-1-ov-file).
+Further details regarding the specifications of the utilized datasets, inclusion criteria, annotation procedures, data statistics, and the comprehensive results of trained models and zero-shot metrics will be available in our forthcoming paper. Additionally, If you are conducting a study using this dataset or published models, please remember to tag this repository and the research paper will be published under [license](https://github.com/aaslihanyildirim/LeafBank-Dataset?tab=CC-BY-4.0-1-ov-file).
