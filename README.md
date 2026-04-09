@@ -38,7 +38,13 @@ This study utilized open-source datasets predominantly consisting of academic ou
 
 ## 🗃️ Annotation Process and Hierarchical File Structure
 
-An analysis of the datasets mentioned in Section 2.1 revealed several artifacts suboptimal for a high-quality dataset, such as low image resolution, motion blur or shifts caused by environmental conditions during acquisition, and the presence of weeds rather than the target foliage. Furthermore, some datasets exhibited potential data imbalance due to a high density of leaves per image. To mitigate the labor-intensive nature of labeling these instances, a representative sampling strategy was adopted instead of utilizing the entire collection. Following a rigorous multi-criteria evaluation, the annotation process was initiated. Two distinct classes were defined: the 'leaf' label was assigned to centrally located and clearly distinguishable leaves, while the 'leaf_secondary' label was used for the remaining instances. After the annotation process, a hierarchical file structure was established. Comprehensive details regarding the class definitions and the organizational directory structure are presented in Figure A.
+An analysis of the datasets mentioned in Section 2.1 revealed several artifacts suboptimal for a high-quality dataset, such as low image resolution, motion blur or shifts caused by environmental conditions during acquisition, and the presence of weeds rather than the target foliage. Furthermore, some datasets exhibited potential data imbalance due to a high density of leaves per image. To mitigate the labor-intensive nature of labeling these instances, a representative sampling strategy was adopted instead of utilizing the entire collection. Following a rigorous multi-criteria evaluation, the annotation process was initiated. Two distinct classes were defined: the 'leaf' label was assigned to centrally located and clearly distinguishable leaves, while the 'leaf_secondary' label was used for the remaining instances. After the annotation process, a hierarchical file structure was established. Comprehensive details regarding the class definitions and the organizational directory structure are presented in the figure below.
+
+<div align="center">
+
+<img src="figures/fig_LeavesBank_Classes.png" alt="Inference Screen" height= "1096" width="500"/>
+
+</div>
 
 
 ------------------------------
